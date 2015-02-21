@@ -17,12 +17,13 @@ php:
   - 5.6
   - hhvm
   
-  matrix:
-    allow_failures:
-        - php: hhvm
-        - php: 5.6
-        
-  script: phpunit -v --debug
+matrix:
+  allow_failures:
+      - php: hhvm
+      - php: 5.5
+      - php: 5.6
+      
+script: phpunit -v --debug
 
 notifications:
   email: "n.musa@sellanycar.com"
