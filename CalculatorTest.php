@@ -14,7 +14,7 @@ class CalculatorTest extends PHPUnit_Framework_Testcase {
 
 		$value = $this->test->add(1,2);
 
-		$this->assertTrue($value == 4);
+		$this->assertTrue($value == 3);
 	}
 
 	public function testSubtract(){
