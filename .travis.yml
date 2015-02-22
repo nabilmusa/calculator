@@ -18,7 +18,7 @@ php:
   #- hhvm
   
       
-phpunit -v --debug CalculatorTest.php 
+script: phpunit -v --debug CalculatorTest.php 
 
 
 notifications:
