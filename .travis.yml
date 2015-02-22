@@ -18,7 +18,8 @@ php:
   #- hhvm
   
       
-#script: phpunit -v --debug
+phpunit -v --debug CalculatorTest.php 
+
 
 notifications:
   email: "n.musa@sellanycar.com"
